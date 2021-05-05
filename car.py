@@ -1,3 +1,5 @@
+"""This is my Car modoule"""
+
 class Car:
 	"""A simple attemp to represent a car."""
 
@@ -71,26 +73,4 @@ class Electric(Car):
 		print("Electric car fill gas tank")
 
 
-my_tesla = Electric('teslal', 'model s', 2019)
-print(my_tesla.get_descriptive_name())
-#my_tesla.describe_battery()
-my_tesla.fill_gas_tank()
-my_tesla.bat.describe_battery()
-my_tesla.bat.get_range()
-
-my_new_car  = Car('audi', 'a4', 2019)
-print(my_new_car.get_descriptive_name())
-my_new_car.read_odometer()
-
-my_new_car.odometer_reading = 23
-
-my_new_car.read_odometer()
-
-my_new_car.update_odometer(100)
-my_new_car.read_odometer()
-
-my_new_car.update_odometer(10)
-my_new_car.read_odometer()
-
-my_new_car.increment_odometer(100)
-my_new_car.read_odometer()
+print('hello world')
